@@ -4,11 +4,18 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "start-web": "react-scripts start",
+    "build-web": "react-scripts build",
+    "test-web": "react-scripts test --env=jsdom",
+    "eject-web": "react-scripts eject"
   },
   "dependencies": {
     "react": "16.2.0",
-    "react-native": "0.52.0"
+    "react-dom": "16.2.0",
+    "react-native": "0.52.0",
+    "react-native-web": "0.3.0",
+    "react-scripts": "1.0.17"
   },
   "devDependencies": {
     "babel-jest": "22.0.6",
