@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "storybook start -p 7007"
   },
   "dependencies": {
     "react": "16.2.0",
@@ -14,7 +15,14 @@
     "babel-jest": "22.4.1",
     "babel-preset-react-native": "4.0.0",
     "jest": "22.4.2",
-    "react-test-renderer": "16.2.0"
+    "react-test-renderer": "16.2.0",
+    "@storybook/react-native": "^3.3.14",
+    "@storybook/addon-actions": "^3.3.14",
+    "@storybook/addon-links": "^3.3.14",
+    "@storybook/addons": "^3.3.14",
+    "babel-core": "^6.26.0",
+    "react-dom": "16.2.0",
+    "prop-types": "^15.6.0"
   },
   "jest": {
     "preset": "react-native"
